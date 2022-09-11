@@ -2,36 +2,7 @@ config = {}
 
 config.locations = {}
 
--- create table with enter position and exit position
-
-config.locations["base1"] = {
-    positions = {
-        enter = vector3(-976.48, -1140.58, 2.17),
-        exit = vector3(-980.20, -1120.90, 2.15)
-    },
-    markers = {
-        enter = {
-            type = 1,
-            scale = vector3(1.0, 1.0, 0.50),
-            color = vector3(255, 0, 0),
-            opacity = 0,
-            drawDistance = 10.0,
-            text = {
-                text = "Appuyez sur ~INPUT_CONTEXT~ pour entrer dans la planque",
-            }
-        },
-        exit = {
-            type = 1,
-            scale = vector3(1.0, 1.0, 0.50),
-            color = vector3(255, 0, 0),
-            opacity = 100,
-            drawDistance = 10.0,
-            text = {
-                text = "Appuyez sur ~INPUT_CONTEXT~ pour sortir de la planque",
-            }
-        }
-    }
-}
+-- For add teleport point, just copy pase one and change informations
 
 config.locations["fbi1"] = {
     positions = {

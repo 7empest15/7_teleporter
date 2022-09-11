@@ -1,6 +1,6 @@
 # 7_teleporter
 
-his script gives you the ability to add teleportation points on your server.
+This script gives you the ability to add teleportation points on your server.
 
 100% Customizable
 Optimized (2.0ms, i work for optimize it more)

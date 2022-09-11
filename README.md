@@ -1,5 +1,7 @@
 # 7_teleporter
 
+[FIVEM only]
+
 This script gives you the ability to add teleportation points on your server.
 
 100% Customizable
